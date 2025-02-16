@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import RequestFactory from '../src/factories/request-factory.class';
+import RequestFactory from '../src/api/advert-client.class';
 import AdvertFactory from '../src/factories/advert-factory.class';
 import {
   extractAdvertIdFromResponse,
